@@ -1,2 +1,2 @@
-# ozlemoz.art
+# ozlemoz-art
  artworks by ozlemoz

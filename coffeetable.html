@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <head>
+    <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+</script>
+    <script nomodule
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>  
+    </head>
+    
+    <body>
+    <model-viewer src="assets/ozlemoz.mavidolap.glb"
+    ios-src="assets/ozlemoz.mavidolap.usdz"
+    poster="assets/ozlemoz.mavidolap.png"        
+    /* camera-orbit="1.2195rad 1.362rad auto" */
+    /* stage-light-intensity="2" environment-intensity="2" */
+    /* camera-orbit="-20deg 75deg 2m" */
+    ar
+    ar-modes="webxr scene-viewer quick-look fallback"
+    auto-rotate camera-controls              
+    shadow-intensity="1"
+    camera-orbit="1.2195rad 1.362rad auto"              
+    alt="Eleni Kilisesi_Dış">
+</model-viewer>    
+    
+<!-- button slot="ar-button" id="ar-button">
+ View in your space
+</button -->
+    
+  </body> 
+</html>
